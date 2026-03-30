@@ -13,7 +13,7 @@ spam.csv -- a labeled SMS spam dataset with message text and spam/ham labels (co
 Three classifiers are evaluated on the SMS spam dataset using TF-IDF features: SVM (sigmoid kernel), Multinomial Naive Bayes, and Decision Tree. See notebook for detailed accuracy, precision, recall, and F1-score comparisons.
 
 ## How to Run
-Ensure spam.csv is in the project directory.
-Install dependencies: pip install pandas nltk scikit-learn
-Download NLTK data: run nltk.download('stopwords') in Python.
-Open and run messageSpamFiltering.ipynb in Jupyter Notebook, or run python messageSpamFiltering.py.
+1. Ensure `spam.csv` is in the project directory.
+2. Install dependencies: `pip install pandas nltk scikit-learn`
+3. Download NLTK data: run `nltk.download('stopwords')` in Python.
+4. Open and run`messageSpamFiltering.ipynb` in Jupyter Notebook, or run `python messageSpamFiltering.py`.
